@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Predicate Logic to SQL Translation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/customer.css" rel="stylesheet">
+    <!-- 
+        <script src="js/submitForm.js"> </script> 
+     -->
+
+  </head>
+
+  <body>
+  <!-- navbar -->
+  
+
+  <div class="container">
+    <div class="container">
+      <div class="header">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-muted pull-left">Super Auto</h3>
+            </div>
+            <div class="col-md-6">
+              <ul class="nav nav-pills pull-right paddingtop">
+                <li class="active"><a href="http://localhost:8088/Super/start.html">Home</a></li>
+                <li><a href="http://localhost:8088/Super/about.html">About</a></li>
+                <li><a href="mailto:qpylxy122@163.com">Contact</a></li>
+              </ul>
+            </div>
+            
+          </div>
+      </div>
+    </div>
+  <!--
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Super Auto</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+
+        </div>/.navbar-collapse 
+      </div>
+    </div>
+    -->
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+<!--    
+    <div class="jumbotron">
+      <div class="Container">
+        <H1>Super Auto</H1>
+      </div>
+    </div>
+    -->
+    <!-- Upload File Area-->
+    
+    <div class="jumbotron" style="background-color:#046E8F;">
+      <div class="container">
+        <h1 style="color:#FFFFFF;">Super Auto</h1>
+        <h2>A Query Compiler</h2>
+        <form id="uploadFileForm" action="FileUploadServlet" method="post" enctype="multipart/form-data">
+        <div class="formgroup">
+          <div class="row" style="padding-top:30px;">
+            <H4>Upload Your File Here</H4>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <label for="fileDirectory"></label>
+              <p><input type="file" placeholder="upload your file here" class="form-control" name="file"></p>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" style="text-align:center;" >
+              <p>
+                <button class="btn btn-lg btn-success btnsize" type="submit" value="Submit">Upload</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        </form>      
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Result Display -->
+    <!-- SQL Query Display-->
+
+
+      <hr>
+
+      <footer>
+        <p>&copy; SuperAuto 2014 all right reserved</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
